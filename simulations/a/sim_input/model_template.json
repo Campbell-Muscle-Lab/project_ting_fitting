@@ -14,7 +14,7 @@
             {
                 "bin_min": -15,
                 "bin_max": 15,
-                "bin_width": 0.75,
+                "bin_width": 1.5,
                 "thick_filament_length": 815,
                 "thin_filament_length": 1120,
                 "bare_zone_length": 80
@@ -32,7 +32,6 @@
                 "k_4_1": 0.5,
                 "k_5_0": 0,
                 "k_5_1": 0,
-                "k_5_2": 1,
                 "k_6_0": 0,
                 "k_6_1": 0,
                 "k_7_0": 150,
@@ -40,7 +39,7 @@
                 "k_8": 0,
                 "k_cb": 0.0005,
                 "x_ps": 0,
-                "x2_ps": 5,
+                "x2_ps": 10,
                 "k_on": 1.5e8,
                 "k_off": 100,
                 "k_coop": 2,

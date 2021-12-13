@@ -105,7 +105,7 @@ plot(s.myosim_muscle.hs(1).myofilaments.x, ...
 plot(s.myosim_muscle.hs(1).myofilaments.x, ...
         log10(s.myosim_muscle.hs(1).rate_structure.r4),'b-');
 ylim([-1 4]);
-xlim(max(s.myosim_muscle.hs(1).myofilaments.x)*[-1 1]);
+xlim([-10, 10]);
 
 if isfield(s.myosim_muscle.hs(1).rate_structure, 'r5')
     subplot(4,1,3);
@@ -115,7 +115,7 @@ if isfield(s.myosim_muscle.hs(1).rate_structure, 'r5')
     plot(s.myosim_muscle.hs(1).myofilaments.x, ...
         log10(s.myosim_muscle.hs(1).rate_structure.r6),'b-');
     ylim([-1 4]);
-    xlim(max(s.myosim_muscle.hs(1).myofilaments.x)*[-1 1]);
+    xlim([-10, 10]);
 end
     
 if isfield(s.myosim_muscle.hs(1).rate_structure, 'r7')
@@ -126,7 +126,7 @@ if isfield(s.myosim_muscle.hs(1).rate_structure, 'r7')
     plot(s.myosim_muscle.hs(1).myofilaments.x, ...
         log10(s.myosim_muscle.hs(1).rate_structure.r8),'b-');
     ylim([-1 4]);
-    xlim(max(s.myosim_muscle.hs(1).myofilaments.x)*[-1 1]);
+    xlim([-10, 10]);
 end
 
 
