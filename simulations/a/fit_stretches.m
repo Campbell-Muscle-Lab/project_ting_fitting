@@ -2,7 +2,7 @@ function fit_fv_curve
 % Code fits fv_curve
 
 % Variables
-optimization_file_string = '../../simulations/a/optimization.json';
+optimization_file_string = '../../simulations/a/optimization_7state.json';
 
 % Code
 
@@ -13,5 +13,5 @@ fig_handle =@fig_summary
 
 % Start the optimization
 fit_controller(optimization_file_string, ...
-    'single_run', 1, ...
+    'single_run', 0, ...
     'output_handler', fig_handle);

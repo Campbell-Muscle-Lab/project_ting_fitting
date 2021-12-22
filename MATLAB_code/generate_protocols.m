@@ -9,7 +9,7 @@ target_base = '../simulations/a/target/target';
 time_step = 0.001;
 fit_start_s = 11.85;
 fit_stop_s = 12.5;
-pre_fit_s = 1;
+pre_fit_s = 1.2;
 
 % Code
 
