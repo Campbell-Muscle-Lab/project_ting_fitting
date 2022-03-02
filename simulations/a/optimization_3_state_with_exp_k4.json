@@ -4,7 +4,7 @@
         "files":
         {
             "relative_to": "this_file",
-            "model_template_file_string": "sim_input/model_template_7state.json",
+            "model_template_file_string": "sim_input/model_template_3_state_with_exp_k4.json",
             "target_file_string": "target_data/target_data.xlsx",
             "best_model_folder": "best",
             "best_opt_file_string": "best/stretch_model.json"
@@ -34,13 +34,6 @@
 				"p_mode": "log"
 			},
 			{
-				"name": "k_2",
-				"min_value": 50,
-				"max_value": 250,
-				"p_value": 0.165656334,
-				"p_mode": "lin"
-			},
-			{
 				"name": "k_3",
 				"min_value": 0,
 				"max_value": 50,
@@ -54,75 +47,19 @@
 				"p_value": 0.425821776,
 				"p_mode": "lin"
 			},
-			{
+            {
 				"name": "k_4_1",
-				"min_value": -1,
-				"max_value": 1,
-				"p_value": 0.4756229257,
-				"p_mode": "log"
-			},
-			{
-				"name": "k_5_0",
-				"min_value": 2,
-				"max_value": 3,
-				"p_value": 0.5966828521,
-				"p_mode": "log"
-			},
-			{
-				"name": "k_7_0",
 				"min_value": 0,
-				"max_value": 2,
-				"p_value": 0.3324409142,
-				"p_mode": "log"
+				"max_value": 5,
+				"p_value": 0.425821776,
+				"p_mode": "lin"
 			},
-			{
-				"name": "k_7_1",
-				"min_value": 0,
+            {
+				"name": "k_4_3",
+				"min_value": 3,
 				"max_value": 10,
-				"p_value": 0.3047637757,
+				"p_value": 0.425821776,
 				"p_mode": "lin"
-			},
-			{
-				"name": "k_9_0",
-				"min_value": 0,
-				"max_value": 100,
-				"p_value": 0.8250676085,
-				"p_mode": "lin"
-			},
-			{
-				"name": "k_9_1",
-				"min_value": -1,
-				"max_value": 1,
-				"p_value": 0.5303037459,
-				"p_mode": "log"
-			},
-			{
-				"name": "k__13_0",
-				"min_value": 1,
-				"max_value": 3,
-				"p_value": 0.5453828624,
-				"p_mode": "log"
-			},
-			{
-				"name": "k__13_1",
-				"min_value": -1,
-				"max_value": 1,
-				"p_value": 0.5003795433,
-				"p_mode": "log"
-			},
-			{
-				"name": "k__14_0",
-				"min_value": 2,
-				"max_value": 3,
-				"p_value": 0.5003795433,
-				"p_mode": "log"
-			},
-			{
-				"name": "k__15",
-				"min_value": 1,
-				"max_value": 3,
-				"p_value": 0.5003795433,
-				"p_mode": "log"
 			},
 			{
 				"name": "k_on",
@@ -130,13 +67,6 @@
 				"max_value": 400000000,
 				"p_value": 0.3795240798,
 				"p_mode": "lin"
-			},
-			{
-				"name": "k_f_on",
-				"min_value": -6,
-				"max_value": -4,
-				"p_value": 0.6324824568,
-				"p_mode": "log"
 			},
 			{
 				"name": "k_coop",

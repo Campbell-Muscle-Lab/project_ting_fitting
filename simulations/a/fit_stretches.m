@@ -2,7 +2,7 @@ function fit_fv_curve
 % Code fits fv_curve
 
 % Variables
-optimization_file_string = '../../simulations/a/optimization_7state.json';
+optimization_file_string = 'optimization_3_state_with_exp_k4.json';
 
 % Code
 
