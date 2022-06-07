@@ -1,0 +1,139 @@
+{
+	"MyoSim_optimization":
+	{
+        "files":
+        {
+            "relative_to": "this_file",
+            "model_template_file_string": "sim_input/model_template_4_state_and_4exp.json",
+            "target_file_string": "target_data/target_data.xlsx",
+            "best_model_folder": "best",
+            "best_opt_file_string": "best/stretch_model.json"
+        },
+
+        "fit_mode": "fit_in_time_domain",
+        "fit_variable": "muscle_force",
+
+        "optimizer": "fminsearch",
+
+        "figure_current_fit": 3,
+        "figure_optimization_progress": 4,
+
+        "parameter": [
+                {
+                        "name": "k_1",
+                        "min_value": 0,
+                        "max_value": 2,
+                        "p_value": 0.291544934,
+                        "p_mode": "log"
+                },
+                {
+                        "name": "k_force",
+                        "min_value": -4,
+                        "max_value": -2,
+                        "p_value": 0.412565011,
+                        "p_mode": "log"
+                },
+                {
+                        "name": "k_3",
+                        "min_value": 1,
+                        "max_value": 3,
+                        "p_value": 0.6328670237,
+                        "p_mode": "log"
+                },
+                {
+                        "name": "k_4_0",
+                        "min_value": 1,
+                        "max_value": 3,
+                        "p_value": 0.8451577616,
+                        "p_mode": "log"
+                },
+                {
+                        "name": "k_4_1",
+                        "min_value": -1,
+                        "max_value": 1,
+                        "p_value": 0.3574299961,
+                        "p_mode": "log"
+                },
+                {
+                        "name": "k_5_0",
+                        "min_value": 1,
+                        "max_value": 3,
+                        "p_value": 1.043614976,
+                        "p_mode": "log"
+                },
+                {
+                        "name": "k_7_0",
+                        "min_value": 0,
+                        "max_value": 3,
+                        "p_value": 0.6208279206,
+                        "p_mode": "lin"
+                },
+                {
+                        "name": "k_7_1",
+                        "min_value": 0,
+                        "max_value": 5,
+                        "p_value": 0.2961128411,
+                        "p_mode": "lin"
+                },
+                {
+                        "name": "k_7_3",
+                        "min_value": 3,
+                        "max_value": 10,
+                        "p_value": 0.9979775205,
+                        "p_mode": "lin"
+                },
+                {
+                        "name": "k_on",
+                        "min_value": 200000000,
+                        "max_value": 400000000,
+                        "p_value": 0.3052720936,
+                        "p_mode": "lin"
+                },
+                {
+                        "name": "k_coop",
+                        "min_value": 0,
+                        "max_value": 10,
+                        "p_value": 0.1204513528,
+                        "p_mode": "lin"
+                }
+        ]
+    },
+    "MyoSim_batch":
+    {       
+        "job":
+        [
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_1.json",
+                "protocol_file_string": "sim_input/prot/prot_1.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_1.myo",
+                "target_file_string": "target/target_1.txt"
+            },
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_2.json",
+                "protocol_file_string": "sim_input/prot/prot_2.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_2.myo",
+                "target_file_string": "target/target_2.txt"
+            },
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_3.json",
+                "protocol_file_string": "sim_input/prot/prot_3.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_3.myo",
+                "target_file_string": "target/target_3.txt"
+            },
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_4.json",
+                "protocol_file_string": "sim_input/prot/prot_4.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_4.myo",
+                "target_file_string": "target/target_4.txt"
+            }
+        ]
+    }
+}

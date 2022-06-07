@@ -12,7 +12,7 @@
         },
         "hs_props":
         {
-            "kinetic_scheme": "4state_with_SRX_and_4exp",
+            "kinetic_scheme": "3state_with_SRX_and_exp_k4",
             "hs_length": 1300,
             "myofilaments":
             {
@@ -29,13 +29,13 @@
                 "prop_myofilaments": 0.6,
                 "cb_number_density": 1.15e17,
                 "k_1": 5,
-                "k_force": 1e-3,
+                "k_force": 1e-4,
                 "k_2": 100,
                 "k_3": 50,
                 "k_4_0": 100,
-                "k_4_1": 2,
+                "k_4_1": 3,
                 "k_4_2": 5,
-                "k_4_3": 7,
+                "k_4_3": 8,
                 "k_cb": 0.001,
                 "x_ps": 4,
                 "k_on": 1.5e8,
