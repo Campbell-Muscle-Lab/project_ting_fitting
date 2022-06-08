@@ -9,7 +9,7 @@ optimization_file_string = 'optimization_3D_1A.json'
 % Code
 
 % Make sure the path allows us to find the right files
-addpath(genpath('c:/ken/github/campbellmusclelab/models/MATMyoSim/code'));
+addpath(genpath('../../../MATMyoSim/code'));
 
 fig_handle =@fig_summary
 
