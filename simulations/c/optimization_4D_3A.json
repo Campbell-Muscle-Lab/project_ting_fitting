@@ -6,8 +6,8 @@
             "relative_to": "this_file",
             "model_template_file_string": "sim_input/model_template_4D_3A.json",
             "target_file_string": "target_data/target_data.xlsx",
-            "best_model_folder": "best",
-            "best_opt_file_string": "best/stretch_model.json"
+            "best_model_folder": "best/6_8_2022_v2",
+            "best_opt_file_string": "best/6_8_2022_v2/stretch_model.json"
         },
 
         "fit_mode": "fit_in_time_domain",

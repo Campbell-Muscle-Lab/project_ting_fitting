@@ -1,0 +1,116 @@
+{
+	"MyoSim_optimization": {
+		"files": {
+			"relative_to": "this_file",
+			"model_template_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\sim_input\\model_template_4D_3A.json",
+			"target_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\best",
+			"best_opt_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\best\\stretch_model.json"
+		},
+		"fit_mode": "fit_in_time_domain",
+		"fit_variable": "muscle_force",
+		"optimizer": "fminsearch",
+		"figure_current_fit": 3,
+		"figure_optimization_progress": 4,
+		"parameter": [
+			{
+				"name": "k_force",
+				"min_value": -4,
+				"max_value": -2,
+				"p_value": 0.1619815648,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_1",
+				"min_value": 0,
+				"max_value": 2,
+				"p_value": 0.5531957183,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_3_0",
+				"min_value": 0,
+				"max_value": 2,
+				"p_value": 0.1490286978,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_0",
+				"min_value": 2,
+				"max_value": 3,
+				"p_value": 1.277804785,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_4",
+				"min_value": 4,
+				"max_value": 10,
+				"p_value": 1.026161874,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_0",
+				"min_value": 2,
+				"max_value": 3,
+				"p_value": 0.7904805798,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_7_0",
+				"min_value": 0,
+				"max_value": 2,
+				"p_value": 1.451494027,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_7_1",
+				"min_value": 0,
+				"max_value": 5,
+				"p_value": 0.1102628066,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_9_0",
+				"min_value": 2,
+				"max_value": 3,
+				"p_value": 1.209919378,
+				"p_mode": "log"
+			},
+			{
+				"name": "k__11",
+				"min_value": 2,
+				"max_value": 3,
+				"p_value": 0.3943020947,
+				"p_mode": "log"
+			},
+			{
+				"name": "k__14_0",
+				"min_value": 2,
+				"max_value": 3,
+				"p_value": -0.01232892265,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_on",
+				"min_value": 7.5,
+				"max_value": 8.5,
+				"p_value": 0.5989258956,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_coop",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.2352132292,
+				"p_mode": "lin"
+			},
+			{
+				"name": "x2_ps",
+				"min_value": 2,
+				"max_value": 8,
+				"p_value": 1.000000609,
+				"p_mode": "lin"
+			}
+		]
+	}
+}
