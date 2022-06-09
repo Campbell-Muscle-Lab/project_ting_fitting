@@ -6,8 +6,8 @@
             "relative_to": "this_file",
             "model_template_file_string": "sim_input/model_template_4D_3A.json",
             "target_file_string": "target_data/target_data.xlsx",
-            "best_model_folder": "best/6_8_2022_v2",
-            "best_opt_file_string": "best/6_8_2022_v2/stretch_model.json"
+            "best_model_folder": "best/6_8_2022_v3",
+            "best_opt_file_string": "best/6_8_2022_v3/stretch_model.json"
         },
 
         "fit_mode": "fit_in_time_domain",
@@ -20,17 +20,80 @@
 
         "parameter": [
 			{
-				"name": "k_1",
+				"name": "k_4_2",
 				"min_value": 0,
-				"max_value": 3,
+				"max_value": 10,
 				"p_value": 0.5531957183,
-				"p_mode": "log"
+				"p_mode": "lin"
 			},
 			{
-				"name": "k_off",
-				"min_value": 50,
-				"max_value": 500,
-				"p_value": 0.5,
+				"name": "k_4_3",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+            {
+				"name": "k_4_4",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_7_1",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+            {
+				"name": "k_7_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_7_3",
+				"min_value": 0,
+				"max_value": 100,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_9_1",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_9_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k__13_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k__13_3",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k__13_4",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
 				"p_mode": "lin"
 			}
 		]
