@@ -6,8 +6,8 @@
             "relative_to": "this_file",
             "model_template_file_string": "sim_input/model_template_2D_1A.json",
             "target_file_string": "target_data/target_data.xlsx",
-            "best_model_folder": "best/6_9_2022_v2",
-            "best_opt_file_string": "best/6_9_2022_v2/stretch_model.json"
+            "best_model_folder": "best/6_9_2022_v3",
+            "best_opt_file_string": "best/6_9_2022_v3/stretch_model.json"
         },
 
         "fit_mode": "fit_in_time_domain",
@@ -20,16 +20,23 @@
 
         "parameter": [
 			{
-				"name": "k_4_2",
-				"min_value": 0,
-				"max_value": 10,
+				"name": "int_passive_hsl_slack",
+				"min_value": 1000,
+				"max_value": 1300,
 				"p_value": 0.5,
 				"p_mode": "lin"
 			},
 			{
-				"name": "k_4_3",
+				"name": "int_passive_k_linear",
 				"min_value": 0,
-				"max_value": 10,
+				"max_value": 100,
+				"p_value": 0.5,
+				"p_mode": "lin"
+			},
+            {
+				"name": "k_off",
+				"min_value": 0,
+				"max_value": 500,
 				"p_value": 0.5,
 				"p_mode": "lin"
 			}
