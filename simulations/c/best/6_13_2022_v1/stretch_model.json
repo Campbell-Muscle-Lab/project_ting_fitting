@@ -1,0 +1,53 @@
+{
+	"MyoSim_optimization": {
+		"files": {
+			"relative_to": "this_file",
+			"model_template_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\sim_input\\model_template_2D_1A.json",
+			"target_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\best\\6_13_2022_v1",
+			"best_opt_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\best\\6_13_2022_v1\\stretch_model.json"
+		},
+		"fit_mode": "fit_in_time_domain",
+		"fit_variable": "muscle_force",
+		"optimizer": "fminsearch",
+		"figure_current_fit": 3,
+		"figure_optimization_progress": 4,
+		"parameter": [
+			{
+				"name": "k_coop",
+				"min_value": 0,
+				"max_value": 100,
+				"p_value": 0.01174839471,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_4_0",
+				"min_value": 0,
+				"max_value": 500,
+				"p_value": 0.207696993,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_4_1",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.07843491509,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_hsl_slack",
+				"min_value": 0,
+				"max_value": 1250,
+				"p_value": 0.7523868231,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_k_linear",
+				"min_value": 1,
+				"max_value": 100,
+				"p_value": 0.062793722,
+				"p_mode": "lin"
+			}
+		]
+	}
+}

@@ -6,7 +6,7 @@
             "relative_to": "this_file",
             "model_template_file_string": "sim_input/model_template_3D_1A.json",
             "target_file_string": "target_data/target_data.xlsx",
-            "best_model_folder": "best",
+            "best_model_folder": "best/6_14_2022_v1",
             "best_opt_file_string": "best/stretch_model.json"
         },
 
