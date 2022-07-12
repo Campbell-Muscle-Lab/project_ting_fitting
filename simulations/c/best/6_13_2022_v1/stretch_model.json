@@ -1,0 +1,81 @@
+{
+	"MyoSim_optimization": {
+		"files": {
+			"relative_to": "this_file",
+			"model_template_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\c\\sim_input\\model_template_2D_1A.json",
+			"target_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\c\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\c\\best\\6_13_2022_v1",
+			"best_opt_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\c\\best\\6_13_2022_v1\\stretch_model.json"
+		},
+		"fit_mode": "fit_in_time_domain",
+		"fit_variable": "muscle_force",
+		"optimizer": "fminsearch",
+		"figure_current_fit": 3,
+		"figure_optimization_progress": 4,
+		"parameter": [
+			{
+				"name": "k_1",
+				"min_value": -1,
+				"max_value": 1,
+				"p_value": 0.400712696,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_2",
+				"min_value": 100,
+				"max_value": 200,
+				"p_value": 0.4293746284,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_force",
+				"min_value": -4,
+				"max_value": -2,
+				"p_value": 0.06253160424,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_3",
+				"min_value": 0,
+				"max_value": 2,
+				"p_value": 0.9999999647,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_0",
+				"min_value": 0,
+				"max_value": 2,
+				"p_value": 1.000026797,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_1",
+				"min_value": 0,
+				"max_value": 5,
+				"p_value": 0.1443766604,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_on",
+				"min_value": 7.5,
+				"max_value": 8.5,
+				"p_value": 0.8499621087,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_coop",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.1311986836,
+				"p_mode": "lin"
+			},
+			{
+				"name": "x_ps",
+				"min_value": 0,
+				"max_value": 8,
+				"p_value": 1.000005163,
+				"p_mode": "lin"
+			}
+		]
+	}
+}

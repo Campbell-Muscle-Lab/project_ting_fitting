@@ -1,0 +1,81 @@
+{
+	"MyoSim_optimization": {
+		"files": {
+			"relative_to": "this_file",
+			"model_template_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\d\\sim_input\\model_template_2D_1A.json",
+			"target_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\d\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\d\\best\\Sali",
+			"best_opt_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\d\\best\\Sali\\stretch_model.json"
+		},
+		"fit_mode": "fit_in_time_domain",
+		"fit_variable": "muscle_force",
+		"optimizer": "fminsearch",
+		"figure_current_fit": 3,
+		"figure_optimization_progress": 4,
+		"parameter": [
+			{
+				"name": "k_force",
+				"min_value": -4,
+				"max_value": -3,
+				"p_value": 0.1668642793,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_0",
+				"min_value": 1.5,
+				"max_value": 2,
+				"p_value": 1.003833944,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_1",
+				"min_value": 0,
+				"max_value": 1,
+				"p_value": 0.03181472832,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_4_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.4873729965,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_4_3",
+				"min_value": 5,
+				"max_value": 10,
+				"p_value": 0.7267117097,
+				"p_mode": "lin"
+			},
+			{
+				"name": "x_ps",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.8073117006,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_L",
+				"min_value": 10,
+				"max_value": 80,
+				"p_value": 0.4101053554,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_hsl_slack",
+				"min_value": 1120,
+				"max_value": 1300,
+				"p_value": 0.5854240821,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_coop",
+				"min_value": 1,
+				"max_value": 20,
+				"p_value": 0.008765734967,
+				"p_mode": "lin"
+			}
+		]
+	}
+}
