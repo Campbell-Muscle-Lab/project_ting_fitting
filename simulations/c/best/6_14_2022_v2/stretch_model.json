@@ -1,0 +1,39 @@
+{
+	"MyoSim_optimization": {
+		"files": {
+			"relative_to": "this_file",
+			"model_template_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\sim_input\\model_template_3D_1A.json",
+			"target_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\best\\6_14_2022_v2",
+			"best_opt_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\best\\6_14_2022_v2\\stretch_model.json"
+		},
+		"fit_mode": "fit_in_time_domain",
+		"fit_variable": "muscle_force",
+		"optimizer": "fminsearch",
+		"figure_current_fit": 3,
+		"figure_optimization_progress": 4,
+		"parameter": [
+			{
+				"name": "k_1",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.14768338,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_force",
+				"min_value": -7,
+				"max_value": -1,
+				"p_value": 0.393157917,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_3",
+				"min_value": 0,
+				"max_value": 3,
+				"p_value": 0.8173909786,
+				"p_mode": "log"
+			}
+		]
+	}
+}

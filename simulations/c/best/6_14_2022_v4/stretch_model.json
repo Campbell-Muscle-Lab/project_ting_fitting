@@ -1,0 +1,88 @@
+{
+	"MyoSim_optimization": {
+		"files": {
+			"relative_to": "this_file",
+			"model_template_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\sim_input\\model_template_3D_1A.json",
+			"target_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\best\\6_14_2022_v4",
+			"best_opt_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\c\\best\\6_14_2022_v4\\stretch_model.json"
+		},
+		"fit_mode": "fit_in_time_domain",
+		"fit_variable": "muscle_force",
+		"optimizer": "fminsearch",
+		"figure_current_fit": 3,
+		"figure_optimization_progress": 4,
+		"parameter": [
+			{
+				"name": "k_on",
+				"min_value": 1,
+				"max_value": 10,
+				"p_value": 0.7155325453,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_off",
+				"min_value": 1,
+				"max_value": 500,
+				"p_value": 0.0557706081,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_1",
+				"min_value": 1,
+				"max_value": 500,
+				"p_value": 0.02781971039,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_3",
+				"min_value": 1,
+				"max_value": 500,
+				"p_value": 0.2824200601,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_0",
+				"min_value": 1,
+				"max_value": 500,
+				"p_value": 0.05900029291,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_1",
+				"min_value": 1,
+				"max_value": 10,
+				"p_value": 0.8376005205,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_2",
+				"min_value": 1,
+				"max_value": 10,
+				"p_value": 0.5288017091,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_3",
+				"min_value": 1,
+				"max_value": 10,
+				"p_value": 0.329603859,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_coop",
+				"min_value": 1,
+				"max_value": 10,
+				"p_value": 0.252163786,
+				"p_mode": "lin"
+			},
+			{
+				"name": "x_ps",
+				"min_value": 1,
+				"max_value": 10,
+				"p_value": 0.2380574456,
+				"p_mode": "lin"
+			}
+		]
+	}
+}
