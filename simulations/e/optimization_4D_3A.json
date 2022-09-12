@@ -1,0 +1,139 @@
+{
+	"MyoSim_optimization":
+	{
+        "files":
+        {
+            "relative_to": "this_file",
+            "model_template_file_string": "sim_input/model_template_4D_3A.json",
+            "target_file_string": "target_data/target_data.xlsx",
+            "best_model_folder": "best/6_8_2022_v3",
+            "best_opt_file_string": "best/6_8_2022_v3/stretch_model.json"
+        },
+
+        "fit_mode": "fit_in_time_domain",
+        "fit_variable": "muscle_force",
+
+        "optimizer": "fminsearch",
+
+        "figure_current_fit": 3,
+        "figure_optimization_progress": 4,
+
+        "parameter": [
+			{
+				"name": "k_4_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_4_3",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+            {
+				"name": "k_4_4",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_7_1",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+            {
+				"name": "k_7_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_7_3",
+				"min_value": 0,
+				"max_value": 100,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_9_1",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_9_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k__13_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k__13_3",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k__13_4",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.5531957183,
+				"p_mode": "lin"
+			}
+		]
+	},
+    "MyoSim_batch":
+    {       
+        "job":
+        [
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_1.json",
+                "protocol_file_string": "sim_input/prot/prot_1.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_1.myo",
+                "target_file_string": "target/target_1.txt"
+            },
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_2.json",
+                "protocol_file_string": "sim_input/prot/prot_2.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_2.myo",
+                "target_file_string": "target/target_2.txt"
+            },
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_3.json",
+                "protocol_file_string": "sim_input/prot/prot_3.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_3.myo",
+                "target_file_string": "target/target_3.txt"
+            },
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_4.json",
+                "protocol_file_string": "sim_input/prot/prot_4.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_4.myo",
+                "target_file_string": "target/target_4.txt"
+            }
+        ]
+    }
+}

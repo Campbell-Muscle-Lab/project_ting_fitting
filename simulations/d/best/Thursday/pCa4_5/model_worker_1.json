@@ -1,0 +1,53 @@
+{
+	"MyoSim_model": {
+		"code": {
+			"version": "2.1.1"
+		},
+		"muscle_props": {
+			"no_of_half_sarcomeres": 1,
+			"series_k_linear_per_hs": 0
+		},
+		"hs_props": {
+			"kinetic_scheme": "3state_with_SRX_and_exp_k4",
+			"hs_length": 1300,
+			"myofilaments": {
+				"bin_min": -10,
+				"bin_max": 10,
+				"bin_width": 1,
+				"thick_filament_length": 815,
+				"thin_filament_length": 1120,
+				"bare_zone_length": 80
+			},
+			"parameters": {
+				"prop_fibrosis": 0,
+				"prop_myofilaments": 0.6,
+				"cb_number_density": 1.15e+17,
+				"k_1": 1,
+				"k_force": 0.000105276,
+				"k_2": 200,
+				"k_3": 100,
+				"k_4_0": 97.5181,
+				"k_4_1": 0.574302,
+				"k_4_2": 3.42354,
+				"k_4_3": 8.73885,
+				"k_cb": 0.001,
+				"x_ps": 7.76347,
+				"k_on": 80000000,
+				"k_off": 200,
+				"k_coop": 4.26761,
+				"int_passive_force_mode": "exponential",
+				"int_passive_hsl_slack": 1008.2,
+				"int_passive_sigma": 10.3162,
+				"int_passive_L": 44.4665,
+				"int_passive_k_linear": 45,
+				"ext_passive_force_mode": "linear",
+				"ext_passive_hsl_slack": 950,
+				"ext_passive_k_linear": 0,
+				"compliance_factor": 0.5,
+				"k_boltzmann": 1.38e-23,
+				"temperature": 288,
+				"max_rate": 5000
+			}
+		}
+	}
+}

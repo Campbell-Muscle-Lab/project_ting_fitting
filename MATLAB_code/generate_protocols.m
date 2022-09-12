@@ -1,35 +1,39 @@
 function generate_protocols
 
-% Variables
-summary_file_string = '../summary/18dec2017a.xlsx';
+addpath(genpath('../../MATMyoSim/code'));
+addpath(genpath('../../MATMyoSim/code'));
+
+
+    % Variables
+summary_file_string = '../summary/18dec2017a_2.xlsx';
 tag_string = 'freeform';
-protocol_base = '../simulations/c/sim_input/prot/prot';
-target_base = '../simulations/c/target/target';
+protocol_base = '../simulations/e/sim_input/prot/prot_slc';
+target_base = '../simulations/e/target/target_slc';
 
 time_step = 0.001;
-fit_start_s = 11.85;
-fit_stop_s = 12.5;
+fit_start_s = 1.85;
+fit_stop_s = 2.5;
 pre_fit_s =1.7;
 
 % Code
 
 % Load summary
 d = readtable(summary_file_string);
-sd = d(find(startsWith(d.file_name, tag_string)), :);
+sd = d(find(startsWith(d.file_name, tag_string)), :)
 
-unique_pCas = unique(sd.pCa);
-unique_pCas(find(unique_pCas==6.6))=[];
-unique_pCas(find(unique_pCas==6.4))=[]
-unique_pCas(find(unique_pCas==6.2))=[]
+% unique_pCas = unique(sd.pCa);
+% unique_pCas(find(unique_pCas==6.6))=[];
+% unique_pCas(find(unique_pCas==6.4))=[]
+% unique_pCas(find(unique_pCas==6.2))=[]
 
 % Build up new database
-vi = [];
-for i = 1 : numel(unique_pCas)
-    vi = [vi find(sd.pCa == unique_pCas(i), 1, 'first')];
-end
+% vi = [];
+% for i = 1 : numel(unique_pCas)
+%     vi = [vi find(sd.pCa == unique_pCas(i), 1, 'first')];
+% end
 
-pd = sd(vi, :);
-
+% pd = sd(vi, :);
+pd = sd;
 % Generate protocols and targets
 for i = 1 : numel(pd.path_name)
     slc_file_string{i} = sprintf('%s.slc', ...

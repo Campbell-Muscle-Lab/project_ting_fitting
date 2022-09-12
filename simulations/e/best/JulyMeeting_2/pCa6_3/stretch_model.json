@@ -1,0 +1,88 @@
+{
+	"MyoSim_optimization": {
+		"files": {
+			"relative_to": "this_file",
+			"model_template_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\d\\sim_input\\model_template_2D_1A.json",
+			"target_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\d\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\d\\best\\Sali\\pCa6_3",
+			"best_opt_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\d\\best\\Sali\\pCa6_3\\stretch_model.json"
+		},
+		"fit_mode": "fit_in_time_domain",
+		"fit_variable": "muscle_force",
+		"optimizer": "fminsearch",
+		"figure_current_fit": 3,
+		"figure_optimization_progress": 4,
+		"parameter": [
+			{
+				"name": "k_force",
+				"min_value": -4,
+				"max_value": -3,
+				"p_value": 0.8518367289,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_0",
+				"min_value": 1.5,
+				"max_value": 2,
+				"p_value": 0.2840475449,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_1",
+				"min_value": 0,
+				"max_value": 1,
+				"p_value": 0.1274835951,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_4_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.221648113,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_4_3",
+				"min_value": 5,
+				"max_value": 10,
+				"p_value": 0.9999992048,
+				"p_mode": "lin"
+			},
+			{
+				"name": "x_ps",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.7014787271,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_L",
+				"min_value": 10,
+				"max_value": 80,
+				"p_value": 0.3701322115,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_hsl_slack",
+				"min_value": 1000,
+				"max_value": 1300,
+				"p_value": 0.5383502442,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_sigma",
+				"min_value": 10,
+				"max_value": 100,
+				"p_value": 0.2907901777,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_coop",
+				"min_value": 1,
+				"max_value": 20,
+				"p_value": 0.1193205709,
+				"p_mode": "lin"
+			}
+		]
+	}
+}

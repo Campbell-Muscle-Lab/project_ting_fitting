@@ -1,0 +1,39 @@
+{
+	"MyoSim_optimization": {
+		"files": {
+			"relative_to": "this_file",
+			"model_template_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\d\\sim_input\\model_template_2D_1A.json",
+			"target_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\d\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\d\\best\\Thursday\\pCa9",
+			"best_opt_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\d\\best\\Thursday\\pCa9\\stretch_model.json"
+		},
+		"fit_mode": "fit_in_time_domain",
+		"fit_variable": "muscle_force",
+		"optimizer": "fminsearch",
+		"figure_current_fit": 3,
+		"figure_optimization_progress": 4,
+		"parameter": [
+			{
+				"name": "int_passive_L",
+				"min_value": 10,
+				"max_value": 150,
+				"p_value": 0.6487350732,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_hsl_slack",
+				"min_value": 1000,
+				"max_value": 1300,
+				"p_value": -0.0006312511125,
+				"p_mode": "lin"
+			},
+			{
+				"name": "int_passive_sigma",
+				"min_value": 10,
+				"max_value": 150,
+				"p_value": 0.9572253031,
+				"p_mode": "lin"
+			}
+		]
+	}
+}
