@@ -19,4 +19,4 @@ fig_handle =@fig_summary
 %     'output_handler', fig_handle);
 
 fit_controller(optimization_file_string, ...
-    'single_run',0);
+    'single_run',1);
