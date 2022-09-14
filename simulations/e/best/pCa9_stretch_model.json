@@ -17,21 +17,21 @@
 				"name": "int_passive_L",
 				"min_value": 1,
 				"max_value": 150,
-				"p_value": 0.7488879729,
+				"p_value": 0.7488757951,
 				"p_mode": "lin"
 			},
 			{
 				"name": "int_passive_hsl_slack",
 				"min_value": 950,
 				"max_value": 1250,
-				"p_value": -0.05499599042,
+				"p_value": -0.05501541443,
 				"p_mode": "lin"
 			},
 			{
 				"name": "int_passive_sigma",
 				"min_value": 1,
 				"max_value": 150,
-				"p_value": 0.9999814999,
+				"p_value": 0.9999802601,
 				"p_mode": "lin"
 			}
 		]
