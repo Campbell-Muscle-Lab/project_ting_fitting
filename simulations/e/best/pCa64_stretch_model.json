@@ -14,59 +14,24 @@
 		"figure_optimization_progress": 4,
 		"parameter": [
 			{
-				"name": "k_1",
-				"min_value": 0,
-				"max_value": 2,
-				"p_value": 0.08972913301,
+				"name": "k_on",
+				"min_value": 7,
+				"max_value": 8.5,
+				"p_value": 0.8,
 				"p_mode": "log"
 			},
 			{
-				"name": "k_force",
-				"min_value": -4.5,
-				"max_value": -2.5,
-				"p_value": 0.8179414571,
-				"p_mode": "log"
-			},
-			{
-				"name": "k_2",
+				"name": "k_off",
 				"min_value": 50,
 				"max_value": 250,
-				"p_value": 0.5976358614,
+				"p_value": 0.5,
 				"p_mode": "lin"
 			},
 			{
-				"name": "k_3",
+				"name": "k_coop",
 				"min_value": 1,
-				"max_value": 3,
-				"p_value": 0.9978101856,
-				"p_mode": "log"
-			},
-			{
-				"name": "k_4_0",
-				"min_value": 1,
-				"max_value": 3,
-				"p_value": 0.2584532479,
-				"p_mode": "log"
-			},
-			{
-				"name": "k_4_1",
-				"min_value": 0,
-				"max_value": 5,
-				"p_value": 0.8775966127,
-				"p_mode": "lin"
-			},
-			{
-				"name": "k_4_2",
-				"min_value": 0,
-				"max_value": 5,
-				"p_value": 0.2166288711,
-				"p_mode": "lin"
-			},
-			{
-				"name": "k_4_3",
-				"min_value": 0,
-				"max_value": 5,
-				"p_value": 0.1580895228,
+				"max_value": 20,
+				"p_value": 0.2,
 				"p_mode": "lin"
 			}
 		]

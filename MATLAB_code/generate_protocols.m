@@ -7,12 +7,12 @@ addpath(genpath('../../MATMyoSim/code'));
     % Variables
 summary_file_string = '../summary/18dec2017a_2.xlsx';
 tag_string = 'freeform';
-protocol_base = '../simulations/e/sim_input/prot/prot_slc';
-target_base = '../simulations/e/target/target_slc';
+protocol_base = '../simulations/e/sim_input/prot/prot_slc_6_4';
+target_base = '../simulations/e/target/target_slc_6_4';
 
 time_step = 0.001;
-fit_start_s = 1.85;
-fit_stop_s = 2.5;
+fit_start_s = 0.95;
+fit_stop_s = 1.20;
 pre_fit_s =1.7;
 
 % Code

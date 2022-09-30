@@ -2,7 +2,7 @@ function find_SLC_files
 addpath(genpath('../../MATLAB_Utilities'));
 
 % Variables
-data_folder = 'C:\Users\ugu222\OneDrive - University of Kentucky\Documents\GitHub\project_ting_fitting\slc_files';
+data_folder = 'C:\Users\ugu222\OneDrive - University of Kentucky\Documents\GitHub\project_ting_fitting\slc_files\pCa_6pt4';
 
 summary_file_string = '../summary/18dec2017a_2.xlsx';
 
