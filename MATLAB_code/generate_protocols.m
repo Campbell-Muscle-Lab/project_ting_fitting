@@ -12,7 +12,7 @@ target_base = '../simulations/e/target/target_slc_6_4';
 
 time_step = 0.001;
 fit_start_s = 0.95;
-fit_stop_s = 1.20;
+fit_stop_s = 1.3670;
 pre_fit_s =1.7;
 
 % Code

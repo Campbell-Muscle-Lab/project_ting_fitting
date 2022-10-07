@@ -32,7 +32,7 @@
 				"k_4_3": 7,
 				"k_cb": 0.001,
 				"x_ps": 5,
-				"k_on": 80000000,
+				"k_on": 8e7,
 				"k_off": 200,
 				"k_coop": 1,
 				"int_passive_force_mode": "exponential",

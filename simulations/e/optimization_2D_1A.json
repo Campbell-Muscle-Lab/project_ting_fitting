@@ -6,8 +6,8 @@
             "relative_to": "this_file",
             "model_template_file_string": "sim_input/model_template_2D_1A.json",
             "target_file_string": "target_data/target_data.xlsx",
-            "best_model_folder": "best/pCa64",
-            "best_opt_file_string": "best/pCa64_stretch_model.json"
+            "best_model_folder": "best/pCa64_step_5",
+            "best_opt_file_string": "best/pCa64_stretch_model_step_5.json"
         },
 
         "fit_mode": "fit_in_time_domain",
@@ -19,25 +19,53 @@
         "figure_optimization_progress": 4,
 
         "parameter": [		
-            {
-				"name": "k_on",
-				"min_value": 7,
-				"max_value": 8.5,
+           {
+				"name": "k_1",
+				"min_value": -1,
+				"max_value": 1,
+				"p_value": 0.5,
+				"p_mode": "log"
+           },
+           {
+				"name": "k_force",
+				"min_value": -4,
+				"max_value": -2,
 				"p_value": 0.5,
 				"p_mode": "log"
 			},
-			{
-				"name": "k_off",
-				"min_value": 50,
-				"max_value": 250,
+            {
+				"name": "k_3",
+				"min_value": 1,
+				"max_value": 3,
+				"p_value": 0.5,
+				"p_mode": "log"
+			},
+            {
+				"name": "k_4_0",
+				"min_value": 1,
+				"max_value": 3,
+				"p_value": 0.5,
+				"p_mode": "log"
+			},
+            {
+				"name": "k_4_1",
+				"min_value": 0,
+				"max_value": 5,
 				"p_value": 0.5,
 				"p_mode": "lin"
 			},
-			{
-				"name": "k_coop",
-				"min_value": 1,
-				"max_value": 20,
-				"p_value": 0.15,
+            {
+				"name": "k_4_2",
+				"min_value": 0,
+				"max_value": 5,
+				"p_value": 0.5,
+				"p_mode": "lin"
+			},
+            {
+				"name": "k_4_3",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.8,
 				"p_mode": "lin"
 			}
 		]
@@ -49,42 +77,42 @@
                         {
                 "relative_to": "this_file",
                 "model_file_string": "sim_input/model/model_worker_1.json",
-                "protocol_file_string": "sim_input/prot/prot_1.txt",
+                "protocol_file_string": "sim_input/prot/prot_slc_6_4_1.txt",
                 "options_file_string": "sim_input/sim_options.json",
                 "results_file_string": "sim_output/results/results_1.myo",
-                "target_file_string": "target/target_1.txt"
+                "target_file_string": "target/target_slc_6_4_1.txt"
             },
             {
                 "relative_to": "this_file",
                 "model_file_string": "sim_input/model/model_worker_2.json",
-                "protocol_file_string": "sim_input/prot/prot_2.txt",
+                "protocol_file_string": "sim_input/prot/prot_slc_6_4_2.txt",
                 "options_file_string": "sim_input/sim_options.json",
                 "results_file_string": "sim_output/results/results_2.myo",
-                "target_file_string": "target/target_2.txt"
+                "target_file_string": "target/target_slc_6_4_2.txt"
             },
             {
                 "relative_to": "this_file",
                 "model_file_string": "sim_input/model/model_worker_3.json",
-                "protocol_file_string": "sim_input/prot/prot_3.txt",
+                "protocol_file_string": "sim_input/prot/prot_slc_6_4_3.txt",
                 "options_file_string": "sim_input/sim_options.json",
                 "results_file_string": "sim_output/results/results_3.myo",
-                "target_file_string": "target/target_3.txt"
+                "target_file_string": "target/target_slc_6_4_3.txt"
             },
             {
                 "relative_to": "this_file",
                 "model_file_string": "sim_input/model/model_worker_4.json",
-                "protocol_file_string": "sim_input/prot/prot_4.txt",
+                "protocol_file_string": "sim_input/prot/prot_slc_6_4_4.txt",
                 "options_file_string": "sim_input/sim_options.json",
                 "results_file_string": "sim_output/results/results_4.myo",
-                "target_file_string": "target/target_4.txt"
+                "target_file_string": "target/target_slc_6_4_4.txt"
             },
             {
                 "relative_to": "this_file",
                 "model_file_string": "sim_input/model/model_worker_5.json",
-                "protocol_file_string": "sim_input/prot/prot_5.txt",
+                "protocol_file_string": "sim_input/prot/prot_slc_6_4_5.txt",
                 "options_file_string": "sim_input/sim_options.json",
                 "results_file_string": "sim_output/results/results_5.myo",
-                "target_file_string": "target/target_5.txt"
+                "target_file_string": "target/target_slc_6_4_5.txt"
             }
         ]
     }
