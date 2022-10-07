@@ -19,25 +19,25 @@
         "figure_optimization_progress": 4,
 
         "parameter": [		
-            {
+           {
 				"name": "k_on",
 				"min_value": 7,
 				"max_value": 8.5,
-				"p_value": 0.8,
+				"p_value": 0.4567436201,
 				"p_mode": "log"
 			},
 			{
 				"name": "k_off",
 				"min_value": 50,
 				"max_value": 250,
-				"p_value": 0.5,
+				"p_value": 1.313306513,
 				"p_mode": "lin"
 			},
 			{
 				"name": "k_coop",
 				"min_value": 1,
 				"max_value": 20,
-				"p_value": 0.2,
+				"p_value": -5.350971999e-07,
 				"p_mode": "lin"
 			}
 		]
