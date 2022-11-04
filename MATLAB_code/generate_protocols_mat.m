@@ -51,7 +51,7 @@ end
 
 time_step = 0.001;
 fit_start_s = 0.9;
-fit_stop_s = 1.2;
+fit_stop_s = 1.5;
 pre_fit_s =1.7;
 
 for i = 2 : 6

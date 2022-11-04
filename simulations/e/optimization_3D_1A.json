@@ -1,0 +1,80 @@
+{
+	"MyoSim_optimization":
+	{
+        "files":
+        {
+            "relative_to": "this_file",
+            "model_template_file_string": "sim_input/model_template_3D_1A.json",
+            "target_file_string": "target_data/target_data.xlsx",
+            "best_model_folder": "best",
+            "best_opt_file_string": "best/stretch_model.json"
+        },
+
+        "fit_mode": "fit_in_time_domain",
+        "fit_variable": "muscle_force",
+
+        "optimizer": "fminsearch",
+
+        "figure_current_fit": 3,
+        "figure_optimization_progress": 4,
+
+        "parameter": [
+			{
+				"name": "k_1",
+				"min_value": 0,
+				"max_value": 2,
+				"p_value": 0.8,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_force",
+				"min_value": -5,
+				"max_value": -3,
+				"p_value": 0.3155764003,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_2",
+				"min_value": 1,
+				"max_value": 3,
+				"p_value": 0.5398875122,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_3",
+				"min_value": 1,
+				"max_value": 3,
+				"p_value": 0.9410122839,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_4_0",
+				"min_value": 1,
+				"max_value": 3,
+				"p_value": 0.714266448,
+				"p_mode": "log"
+			},
+			{
+				"name": "k_7",
+				"min_value": 1,
+				"max_value": 3,
+				"p_value": 0.407767919,
+				"p_mode": "log"
+			}
+		]
+    },
+    "MyoSim_batch":
+    {       
+        "job":
+        [
+            {
+                "relative_to": "this_file",
+                "model_file_string": "sim_input/model/model_worker_2.json",
+                "protocol_file_string": "sim_input/prot/prot_slc_6_4_2.txt",
+                "options_file_string": "sim_input/sim_options.json",
+                "results_file_string": "sim_output/results/results_2.myo",
+                "target_file_string": "target/target_slc_6_4_2.txt"
+            }
+        ]
+    }
+}

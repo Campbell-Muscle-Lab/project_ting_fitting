@@ -3,7 +3,7 @@ function fit_fv_curve
 
 % Variables
 % optimization_file_string = 'optimization_4D_3A.json';
-% optimization_file_string = 'optimization_3D_1A.json'
+%optimization_file_string = 'optimization_3D_1A.json'
 optimization_file_string = 'optimization_2D_1A.json';
 
 % Code
@@ -19,4 +19,4 @@ fig_handle =@fig_summary
 %     'output_handler', fig_handle);
 
 fit_controller(optimization_file_string, ...
-    'single_run',1);
+    'single_run',0);

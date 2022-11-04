@@ -2,10 +2,10 @@
 	"MyoSim_optimization": {
 		"files": {
 			"relative_to": "this_file",
-			"model_template_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\e\\sim_input\\model_template_2D_1A.json",
-			"target_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\e\\target_data\\target_data.xlsx",
-			"best_model_folder": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\e\\best\\pCa9",
-			"best_opt_file_string": "C:\\Users\\ugu222\\OneDrive - University of Kentucky\\Documents\\GitHub\\project_ting_fitting\\simulations\\e\\best\\pCa9_stretch_model.json"
+			"model_template_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\e\\sim_input\\model_template_2D_1A.json",
+			"target_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\e\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\e\\best\\pCa9",
+			"best_opt_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\e\\best\\pCa9_stretch_model.json"
 		},
 		"fit_mode": "fit_in_time_domain",
 		"fit_variable": "muscle_force",
@@ -16,23 +16,23 @@
 			{
 				"name": "int_passive_L",
 				"min_value": 1,
-				"max_value": 150,
-				"p_value": 0.7488757951,
-				"p_mode": "lin"
+				"max_value": 2,
+				"p_value": 1.000000635,
+				"p_mode": "log"
 			},
 			{
 				"name": "int_passive_hsl_slack",
-				"min_value": 950,
-				"max_value": 1250,
-				"p_value": -0.05501541443,
+				"min_value": 1200,
+				"max_value": 1300,
+				"p_value": 1.622037463e-05,
 				"p_mode": "lin"
 			},
 			{
 				"name": "int_passive_sigma",
-				"min_value": 1,
-				"max_value": 150,
-				"p_value": 0.9999802601,
-				"p_mode": "lin"
+				"min_value": 0,
+				"max_value": 4,
+				"p_value": 0.7795172365,
+				"p_mode": "log"
 			}
 		]
 	}
