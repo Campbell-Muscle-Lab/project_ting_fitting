@@ -7,7 +7,7 @@
             "model_template_file_string": "sim_input/model_template_3D_1A.json",
             "target_file_string": "target_data/target_data.xlsx",
             "best_model_folder": "best/pCa9",
-            "best_opt_file_string": "best/pCa9_stretch_model.json"
+            "best_opt_file_string": "best/pas_stretch_model.json"
         },
 
         "fit_mode": "fit_in_time_domain",
@@ -19,26 +19,26 @@
         "figure_optimization_progress": 4,
 
         "parameter": [		
-            {
+           {
 				"name": "int_passive_L",
-				"min_value": 1,
-				"max_value": 2,
-				"p_value": 0.5,
-				"p_mode": "log"
+				"min_value": 100,
+				"max_value": 500,
+				"p_value": 0.4180163079,
+				"p_mode": "lin"
 			},
 			{
 				"name": "int_passive_hsl_slack",
-				"min_value": 1200,
+				"min_value": 1250,
 				"max_value": 1300,
-				"p_value": 0.5,
+				"p_value": -0.0002348691667,
 				"p_mode": "lin"
 			},
 			{
 				"name": "int_passive_sigma",
-				"min_value": 0,
-				"max_value": 4,
-				"p_value": 0.8,
-				"p_mode": "log"
+				"min_value": 3000,
+				"max_value": 15000,
+				"p_value": 0.9999962855,
+				"p_mode": "lin"
 			}
 		]
     },

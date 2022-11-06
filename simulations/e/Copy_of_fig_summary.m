@@ -76,7 +76,7 @@ for i = 1 : 10 : numel(fi)
 %     plot(y(1,:), 'r-');
 %     plot(y(2,:), 'g-');
     plot(xx,y, 'g-');
-    ylim([0 0.2]);
+    ylim([0 0.05]);
     text(0, 0.04, sprintf('%.3f', s.time_s(fi(i))));
     
     frame = getframe(h);
@@ -111,7 +111,6 @@ plot(s.myosim_muscle.hs(1).myofilaments.x, ...
 ylim([-1 4]);
 xlim(max(s.myosim_muscle.hs(1).myofilaments.x)*[-1 1]);
 ylabel('r1/2');
-legend('r1','r1_0','r2')
 
 subplot(r,1,2);
 hold on;
@@ -122,8 +121,6 @@ plot(s.myosim_muscle.hs(1).myofilaments.x, ...
 ylim([-1 4]);
 xlim(max(s.myosim_muscle.hs(1).myofilaments.x)*[-1 1]);
 ylabel('r3/4');
-legend('r3','r4')
-
 
 if isfield(s.myosim_muscle.hs(1).rate_structure, 'r5')
     subplot(r,1,3);
@@ -135,8 +132,6 @@ if isfield(s.myosim_muscle.hs(1).rate_structure, 'r5')
     ylim([-1 4]);
     xlim(max(s.myosim_muscle.hs(1).myofilaments.x)*[-1 1]);
     ylabel('r5/6');
-    legend('r5','r6')
-
 end
     
 if isfield(s.myosim_muscle.hs(1).rate_structure, 'r7')
@@ -151,8 +146,6 @@ if isfield(s.myosim_muscle.hs(1).rate_structure, 'r7')
     ylim([-1 4]);
     xlim(max(s.myosim_muscle.hs(1).myofilaments.x)*[-1 1]);
     ylabel('r7/8');
-    legend('r7','r8')
-
 end
 
 if isfield(s.myosim_muscle.hs(1).rate_structure, 'r9')

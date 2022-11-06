@@ -69,11 +69,11 @@
         [
             {
                 "relative_to": "this_file",
-                "model_file_string": "sim_input/model/model_worker_2.json",
-                "protocol_file_string": "sim_input/prot/prot_slc_6_4_2.txt",
+                "model_file_string": "sim_input/model/model_worker_1.json",
+                "protocol_file_string": "sim_input/prot/prot_1.txt",
                 "options_file_string": "sim_input/sim_options.json",
-                "results_file_string": "sim_output/results/results_2.myo",
-                "target_file_string": "target/target_slc_6_4_2.txt"
+                "results_file_string": "sim_output/results/results_1.myo",
+                "target_file_string": "target/target_1.txt"
             }
         ]
     }
