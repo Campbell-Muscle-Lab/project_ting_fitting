@@ -21,18 +21,18 @@
         "parameter": [		
             {
 				"name": "k_1",
-				"min_value": 0,
+				"min_value": 1,
 				"max_value": 2,
-				"p_value": 0.5,
+				"p_value": 0.8518367289,
 				"p_mode": "log"
 			},
             {
-				"name": "k_3",
-				"min_value": 2,
-				"max_value": 3,
-				"p_value": 0,
+				"name": "k_1",
+				"min_value": 1,
+				"max_value": 2,
+				"p_value": 0.8518367289,
 				"p_mode": "log"
-			},
+			}
             {
 				"name": "k_force",
 				"min_value": -4,
@@ -84,7 +84,7 @@
 			},
 			{
 				"name": "int_passive_hsl_slack",
-				"min_value": 1200,
+				"min_value": 1000,
 				"max_value": 1300,
 				"p_value": 0.5383502442,
 				"p_mode": "lin"
@@ -102,13 +102,6 @@
 				"max_value": 20,
 				"p_value": 0.1193205709,
 				"p_mode": "lin"
-			},
-            {
-				"name": "k_on",
-				"min_value": 7,
-				"max_value": 8,
-				"p_value": 0.1193205709,
-				"p_mode": "log"
 			}
 		]
     },

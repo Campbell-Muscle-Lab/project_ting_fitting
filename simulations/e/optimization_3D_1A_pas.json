@@ -53,38 +53,6 @@
                 "options_file_string": "sim_input/sim_options.json",
                 "results_file_string": "sim_output/results/results_1.myo",
                 "target_file_string": "target/target_pas_1.txt"
-            },
-            {
-                "relative_to": "this_file",
-                "model_file_string": "sim_input/model/model_worker_2.json",
-                "protocol_file_string": "sim_input/prot/prot_pas_2.txt",
-                "options_file_string": "sim_input/sim_options.json",
-                "results_file_string": "sim_output/results/results_2.myo",
-                "target_file_string": "target/target_pas_2.txt"
-            },
-            {
-                "relative_to": "this_file",
-                "model_file_string": "sim_input/model/model_worker_3.json",
-                "protocol_file_string": "sim_input/prot/prot_pas_3.txt",
-                "options_file_string": "sim_input/sim_options.json",
-                "results_file_string": "sim_output/results/results_3.myo",
-                "target_file_string": "target/target_pas_3.txt"
-            },
-            {
-                "relative_to": "this_file",
-                "model_file_string": "sim_input/model/model_worker_4.json",
-                "protocol_file_string": "sim_input/prot/prot_pas_4.txt",
-                "options_file_string": "sim_input/sim_options.json",
-                "results_file_string": "sim_output/results/results_4.myo",
-                "target_file_string": "target/target_pas_4.txt"
-            },
-            {
-                "relative_to": "this_file",
-                "model_file_string": "sim_input/model/model_worker_5.json",
-                "protocol_file_string": "sim_input/prot/prot_pas_5.txt",
-                "options_file_string": "sim_input/sim_options.json",
-                "results_file_string": "sim_output/results/results_5.myo",
-                "target_file_string": "target/target_pas_5.txt"
             }
         ]
     }

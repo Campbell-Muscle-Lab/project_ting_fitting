@@ -2,10 +2,10 @@
 	"MyoSim_optimization": {
 		"files": {
 			"relative_to": "this_file",
-			"model_template_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\e\\sim_input\\model_template_3D_1A.json",
-			"target_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\e\\target_data\\target_data.xlsx",
-			"best_model_folder": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\e\\best",
-			"best_opt_file_string": "C:\\utku\\GitHub\\project_ting_fitting\\simulations\\e\\best\\stretch_model.json"
+			"model_template_file_string": "C:\\github\\utku\\project_ting_fitting\\simulations\\e\\sim_input\\model_template_3D_1A.json",
+			"target_file_string": "C:\\github\\utku\\project_ting_fitting\\simulations\\e\\target_data\\target_data.xlsx",
+			"best_model_folder": "C:\\github\\utku\\project_ting_fitting\\simulations\\e\\best",
+			"best_opt_file_string": "C:\\github\\utku\\project_ting_fitting\\simulations\\e\\best\\stretch_model.json"
 		},
 		"fit_mode": "fit_in_time_domain",
 		"fit_variable": "muscle_force",
@@ -15,45 +15,80 @@
 		"parameter": [
 			{
 				"name": "k_1",
-				"min_value": 0,
-				"max_value": 2,
-				"p_value": 1.156210509,
+				"min_value": 1,
+				"max_value": 1.5,
+				"p_value": 0.008354520744,
 				"p_mode": "log"
 			},
 			{
 				"name": "k_force",
 				"min_value": -5,
 				"max_value": -3,
-				"p_value": 0.3574787014,
-				"p_mode": "log"
-			},
-			{
-				"name": "k_2",
-				"min_value": 1,
-				"max_value": 3,
-				"p_value": 0.8492748397,
+				"p_value": 0.6624784166,
 				"p_mode": "log"
 			},
 			{
 				"name": "k_3",
-				"min_value": 1,
+				"min_value": 0,
 				"max_value": 3,
-				"p_value": -0.01150897561,
+				"p_value": 0.6448855463,
 				"p_mode": "log"
 			},
 			{
-				"name": "k_4_0",
-				"min_value": 1,
-				"max_value": 3,
-				"p_value": 0.1670603711,
+				"name": "k_4_1",
+				"min_value": 0,
+				"max_value": 1.87,
+				"p_value": 0.3134260655,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_0",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": -0.00374411471,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_1",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.6663762227,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_2",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.4556107329,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_3",
+				"min_value": 0,
+				"max_value": 10,
+				"p_value": 0.002280290466,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_5_4",
+				"min_value": -1,
+				"max_value": 2,
+				"p_value": 0.5750745472,
 				"p_mode": "log"
 			},
 			{
-				"name": "k_7",
+				"name": "x_ps",
 				"min_value": 1,
-				"max_value": 3,
-				"p_value": 0.1920276215,
-				"p_mode": "log"
+				"max_value": 5,
+				"p_value": 0.3085325582,
+				"p_mode": "lin"
+			},
+			{
+				"name": "k_coop",
+				"min_value": 1,
+				"max_value": 5,
+				"p_value": 0.999999007,
+				"p_mode": "lin"
 			}
 		]
 	}
