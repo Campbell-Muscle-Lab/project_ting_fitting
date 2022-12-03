@@ -57,8 +57,8 @@
 				"ext_passive_k_linear": 0,
                 "compliance_factor": 0.5,
                 "k_boltzmann": 1.38e-23,
-                "temperature": 288,
-                "max_rate": 5000
+                "temperature": 298,
+                "max_rate": 1000
             }
         }
     }
