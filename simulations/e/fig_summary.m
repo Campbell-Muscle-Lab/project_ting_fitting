@@ -26,7 +26,7 @@ cm = jet(n);
 % end
 % return
 
-for i = 1 : 1
+for i = 1 : 2
     s = sim_output{i};
 %     mm = s.myosim_muscle.hs(1).rate_structure;
    
@@ -61,34 +61,34 @@ legendflex(h, fn, 'anchor',{'e','w'}, 'xscale',0.3, 'buffer', [10 0]);
 
 % return
 
-% s = sim_output{1};
-% 
-% gn = 'cb_distib.gif';
-% 
-% h = figure(34);
-% clf
-% fi = 900:2116;
-% for i = 1 : 10 : numel(fi)
-%     xx = linspace(-10,10,21);
-%     y = squeeze(s.cb_pops(fi(i), 1, :, :));
-%     cla
-%     hold on;
-% %     plot(y(1,:), 'r-');
-% %     plot(y(2,:), 'g-');
-%     plot(xx,y, 'g-');
+s = sim_output{2};
+
+gn = 'cb_distib.gif';
+
+h = figure(34);
+clf
+fi = 900:2116;
+for i = 1 : 10 : numel(fi)
+    xx = linspace(-10,10,41);
+    y = squeeze(s.cb_pops(fi(i), 1, :, :));
+    cla
+    hold on;
+%     plot(y(1,:), 'r-');
+%     plot(y(2,:), 'g-');
+    plot(xx,y, 'g-');
 %     ylim([0 0.2]);
-%     text(0, 0.04, sprintf('%.3f', s.time_s(fi(i))));
-%     
-%     frame = getframe(h);
-%     im = frame2im(frame);
-%     [imind,cm] = rgb2ind(im, 256);
-%     
-%     if (i==1)
-%         imwrite(imind, cm, gn, 'gif', 'Loopcount', inf', 'DelayTime', 0.01);
-%     else
-%         imwrite(imind, cm, gn, 'gif', 'WriteMode', 'append', 'DelayTime', 0.01);
-%     end
-% end
+    text(0, 0.04, sprintf('%.3f', s.time_s(fi(i))));
+    
+    frame = getframe(h);
+    im = frame2im(frame);
+    [imind,cm] = rgb2ind(im, 256);
+    
+    if (i==1)
+        imwrite(imind, cm, gn, 'gif', 'Loopcount', inf', 'DelayTime', 0.01);
+    else
+        imwrite(imind, cm, gn, 'gif', 'WriteMode', 'append', 'DelayTime', 0.01);
+    end
+end
 
 
 s = sim_output{1};
