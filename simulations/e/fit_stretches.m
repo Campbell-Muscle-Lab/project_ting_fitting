@@ -13,10 +13,10 @@ addpath(genpath('../../../MATMyoSim/code'));
 
 fig_handle =@fig_summary
 
-% Start the optimization
+% % Start the optimization
 % fit_controller(optimization_file_string, ...
-%     'single_run', 1, ...
+%     'single_run', 0, ...
 %     'output_handler', fig_handle);
-% 
+
 fit_controller(optimization_file_string, ...
     'single_run',0);

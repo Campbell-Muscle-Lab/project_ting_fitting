@@ -68,8 +68,8 @@ gn = 'cb_distib.gif';
 h = figure(34);
 clf
 fi = 900:2116;
-for i = 1 : 10 : numel(fi)
-    xx = linspace(-10,10,41);
+for i = 1 : 1 : numel(fi)
+    xx = linspace(-10,10,21);
     y = squeeze(s.cb_pops(fi(i), 1, :, :));
     cla
     hold on;

@@ -1,3 +1,4 @@
+
 {
     "MyoSim_model":
     {
@@ -18,7 +19,7 @@
             {
                 "bin_min": -10,
                 "bin_max": 10,
-                "bin_width": 0.5,
+                "bin_width": 1,
                 "thick_filament_length": 815,
                 "thin_filament_length": 1120,
                 "bare_zone_length": 80
@@ -38,27 +39,25 @@
                 "k_5_1": 5,
                 "k_5_2": 8,
                 "k_5_3": 0,
-                "k_5_4": 100,
+                "k_5_4": 50,
                 "k_6": 100,
                 "k_7": 100,
                 "k_8": 0,
                 "k_cb": 0.001,
-                "x_ps": 1,
-                "k_on": 8e7,
-                "k_off": 200,
+                "x_ps": 2,
+                "k_on": 7e7,
+                "k_off": 100,
                 "k_coop": 2,
-               	"int_passive_force_mode": "exponential",
-				"int_passive_hsl_slack": 1250,
-				"int_passive_sigma": 15000,
-				"int_passive_L": 379,
-				"int_passive_k_linear": 45,
-				"ext_passive_force_mode": "linear",
-				"ext_passive_hsl_slack": 1058.95,
-				"ext_passive_k_linear": 0,
+                "int_passive_force_mode": "linear",
+                "int_passive_hsl_slack": 1250,
+                "int_passive_k_linear": 45,
+                "ext_passive_force_mode": "linear",
+                "ext_passive_hsl_slack": 950,
+                "ext_passive_k_linear": 0,
                 "compliance_factor": 0.5,
                 "k_boltzmann": 1.38e-23,
-                "temperature": 298,
-                "max_rate": 1000
+                "temperature": 288,
+                "max_rate": 5000
             }
         }
     }
